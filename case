@@ -1,0 +1,4 @@
+获取一个元素的所有兄弟元素
+
+const siblings = (ele) => 
+  .slice.call(ele.parentNode.children).filter((child) => child !== ele);
